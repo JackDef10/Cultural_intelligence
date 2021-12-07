@@ -3192,7 +3192,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			margin-top: -3rem;
+			margin-top: -0.5rem;
 		}
 
 			.spotlights section .image {
@@ -4152,7 +4152,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 		}
 
 		#header + #sub-banner {
-			margin-top: -3.5rem;
+			margin-top: -2.5rem;
 		}
 
 		#header > .navPanelToggle {
