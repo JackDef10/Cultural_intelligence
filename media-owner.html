@@ -93,37 +93,30 @@
 					<section class="wrapper style4">
 						<div class="inner">
 							<h3 class="special-text">contact us</h3>
-							<form method="post" action="#" class="alt">
+							<form id="myForm">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+										<input type="text" name="name" id="demo-name" value="" placeholder="Name" />
 									</div>
 									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+										<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
 									</div>
 									<!-- Break -->
 									<div class="col-12">
-										<select name="demo-category" id="demo-category">
+										<select name="category" id="demo-category">
 											<option value="">- Category -</option>
 											<option value="1">Packages</option>
 											<option value="1">Request Demo</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
 										</select>
 									</div>
 									<!-- Break -->
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy</label>
-									</div>
-									<!-- Break -->
 									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										<textarea name="message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 									</div>
 									<!-- Break -->
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="button" value="Send Message" onclick="contactUs()" /></li>
 										</ul>
 									</div>
 								</div>
@@ -158,6 +151,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script src="assets/js/contact-form-backend.js"></script>
 			<script>
 			  AOS.init({
 				duration: 1500,
