@@ -2827,7 +2827,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 	}
 
 	#features-title span{
-		font-size: 1.8em;
+		font-size: 2em;
 		text-transform: capitalize;
 	}
 
@@ -3314,6 +3314,13 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 				margin: 0 0 2rem 0;
 			}
 
+		}
+
+		.page-divider{
+			width:80%;
+			display:block;
+			margin: 0 auto;
+			margin-bottom: 1em;		
 		}
 
 /* Features */
