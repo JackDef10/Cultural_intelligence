@@ -3915,7 +3915,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 			justify-content: center;
 			background-attachment: fixed, fixed;
 			background-image: linear-gradient(
-			90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url(../../images/media-planner-banner-low-res.jpg);
+			90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url(../../images/media-planner-banner.jpg);
 			background-position: center, center;
 			background-repeat: repeat, no-repeat;
 			background-size: auto, cover;

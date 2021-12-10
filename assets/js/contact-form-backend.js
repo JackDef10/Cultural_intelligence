@@ -18,7 +18,10 @@ function contactUs() {
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
         var json = JSON.parse(xhr.responseText);
+        alert("Thank you");
         console.log(json);
+      } else {
+        alert("Missing field");
       }
     };
     xhr.send(JSON.stringify(obj));
