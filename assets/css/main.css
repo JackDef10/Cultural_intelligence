@@ -167,7 +167,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 2rem 2rem;
 		font-size: 1.1em;
 	}
 
@@ -2527,6 +2527,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 		ul li {
 			padding-left: 0.325rem;
+			
 		}
 
 		ul.alt {
@@ -3245,7 +3246,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 			}
 
 				.spotlights section:nth-child(2n) .image {
-					margin: 5em 0 5em 6rem;
+					margin: 5em 0 2em 6rem;
 				}
 
 				.spotlights section:nth-child(2n) .content header.major h3:after {
@@ -3725,7 +3726,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 		background-color: #3a3a3a;
 		color: #ffffff;
 		padding-bottom: 7.25rem;
-		padding: 10rem 0 8rem 0 ;
+		padding: 10rem 0 13rem 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3740,8 +3741,8 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 		justify-content: center;
 		background-attachment: fixed, fixed;
 		background-image: linear-gradient(
-		90deg, rgba(58, 58, 58, 0.2), rgba(58, 58, 58, 0.6)), url(../../images/sentiment-banner2.jpg);
-		background-position: center, bottom;
+		90deg, rgba(58, 58, 58, 0.2), rgba(58, 58, 58, 0.6)), url(../../images/sentiment2.jpg);
+		background-position: center, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		max-height: calc(50vh + 12rem);
@@ -3893,6 +3894,38 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 		}
 
+		#sentiment-blurb{
+			font-size: 1.75em;
+			text-align: center;
+			margin-bottom: 1.25em;
+		}
+
+		#sentiment-graphic{
+			width: 90%;
+			margin: 0 auto;
+			display:block;
+			margin-top: 2em;
+		}
+
+		.sentiment-content{
+			text-align: center;
+			list-style-position: inside;
+			font-size: 1.1em;
+		}
+
+		#sentiment-content{
+			text-align: center;
+		}
+
+		.section-divider{
+			width: 100%;
+			height: 2px;
+			background-color: #4158D0;
+			background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+			display:block;
+			position: relative;
+			margin-top:4em;
+			margin-bottom: 4em;		}
 		/*media planner banner*/
 
 		#media-planner-banner {
